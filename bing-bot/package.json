@@ -1,0 +1,32 @@
+{
+  "name": "bing-bot",
+  "version": "1.0.0",
+  "description": "BARK Token (BARK) PingBot is a Telegram bot designed to provide real-time monitoring and alerts specifically for BARK Token on the Solana blockchain. Stay informed about price changes, trading volume spikes, and other significant developments directly in your Telegram group.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BARK Token",
+    "Telegram bot",
+    "Solana blockchain",
+    "monitoring",
+    "alerts"
+  ],
+  "author": "BARK Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "1.93.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.2",
+    "logger": "^0.0.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.3"
+  }
+}
