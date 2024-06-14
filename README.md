@@ -1,6 +1,3 @@
-Sure, here's a `README.md` file for your BARK Telegram Bot project.
-
-```markdown
 # BARK Telegram Bot
 
 This project is a Telegram bot designed to monitor the BARK Token on the Solana blockchain and send alerts based on specific conditions. The bot uses the `node-telegram-bot-api` library for interacting with the Telegram Bot API and `solana-web3.js` for Solana blockchain interactions.
@@ -118,6 +115,3 @@ This project uses Jest for unit testing. Tests are located in the `tests/` direc
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
-
-This `README.md` provides a comprehensive guide for setting up, running, and developing your BARK Telegram Bot. It includes installation instructions, usage details, configuration setup, and information on the project's structure and testing. Adjust the repository URL and any other specific details as needed.
